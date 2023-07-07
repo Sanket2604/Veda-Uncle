@@ -1,0 +1,52 @@
+.highlight-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  border-left: 5px solid transparent;
+}
+
+.highlight-card.card-1 {
+  border-color: #FD3550;
+}
+
+.highlight-card.card-2 {
+  border-color: rgb(21, 202, 32);
+}
+
+.highlight-card.card-3 {
+  border-color: rgb(13, 202, 240);
+}
+
+.highlight-card .type,
+.highlight-card .change {
+  font-size: 14px;
+  color: var(--font-secondary);
+}
+
+.highlight-card .num {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.highlight-card .icon {
+  background-color: #FD3550;
+  height: 50px;
+  width: 50px;
+  display: grid;
+  place-items: center;
+  border-radius: 100%;
+  font-size: 22px;
+  color: white;
+}
+.highlight-card.card-1 .icon{
+  background-color: #FD3550;
+}
+
+.highlight-card.card-2 .icon{
+  background-color: rgb(21, 202, 32);
+}
+
+.highlight-card.card-3 .icon{
+  background-color: rgb(13, 202, 240);
+}

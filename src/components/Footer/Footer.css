@@ -1,0 +1,20 @@
+.footer{
+  margin-inline: 3vw;
+  border-top: 2px solid var(--border);
+  padding-block: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer{
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .footer{
+  padding-block: 10px;
+    font-size: 12px;
+  }
+}
